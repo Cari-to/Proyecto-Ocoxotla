@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-transform: none;
+text-decoration: none;
+font-family: "Poppins", sans-serif;
+
+}
+header{
+    background-image: url(Images/vista\ cerro.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+color: #f9f9f9;
+font-size: 80px;
+text-transform: uppercase;
+font-weight: 500;
+}
+header h1 {
+    margin-bottom: 1rem;
+}
+
+.img {width: 640px;
+    height: 480px;
+    border-radius: 15px;
+}
+.img2 {width: 640px;
+    height: 480px;
+    border-radius: 15px;
+}
+.img3 {width: 817px;
+    height: 598px;
+    border-radius: 15px;
+}
+.img4 {width: 620px;
+    height: 817px;
+    border-radius: 15px;
+}
+.img5 {width: 620px;
+    height: 817px;
+    border-radius: 15px;
+}
+.img6 {width: 768px;
+    height: 510px;
+    border-radius: 15px;
+}
+.img7 {width: 760px;
+    height: 474px;
+    border-radius: 15px;
+}
+.img8 {width: 760px;
+    height: 474px;
+    border-radius: 15px;
+}
+.img9 {width: 636px;
+    height: 400px;
+    border-radius: 15px;
+}
+.img10 {width: 760px;
+    height: 474px;
+    border-radius: 15px;
+}  
+.img11 {width: 760px;
+    height: 474px;
+    border-radius: 15px;
+}  
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.section p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #34495e;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 300px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .gallery img {
+        width: 50%;
+    }
+}
